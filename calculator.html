@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator with Bulma</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="calculator.js"></script>
+  </head>
+  <body class="has-background-dark">
+    <section class="section ml-0 mr-6">
+      <div class="container">
+        <div class="columns is-mobile">
+            <div class="column is-4">
+            </div>
+            <div class="column is-4">
+              <h1 class="title has-text-light is-italic has-text-weight-semibold has-text-primary has-text-right is-size-6 mt-6">
+                Calculator with Bulma
+              </h1>
+            </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="columns is-mobile">
+          <div class="column is-4">
+          </div>
+          <div class="column is-4">
+            <hr class="mt-0 mb-4">
+            <p id="display" class="has-text-primary is-size-4 has-text-right">&nbsp</p>
+          </div>
+        </div>
+      <div>
+      <div class="container">
+        <div class="columns is-mobile">
+          <div class="column is-4">
+          </div>
+          <div class="column is-1">
+            <button onclick="clickAllClear()" class="button is-light is-fullwidth"><b>AC</b></button><br>
+            <button onclick="click7()" class="button is-light is-fullwidth"><b>7</b></button><br>
+            <button onclick="click4()" class="button is-light is-fullwidth"><b>4</b></button><br>
+            <button onclick="click1()" class="button is-light is-fullwidth"><b>1</b></button><br>
+            <button onclick="click0()" class="button is-light is-fullwidth"><b>0</b></button><br><br><br><br><br><br><br><br>
+          </div>
+          <div class="column is-1">
+            <button onclick="clickChs()" class="button is-light is-fullwidth"><b>+/-</b></button><br>
+            <button onclick="click8()" class="button is-light is-fullwidth"><b>8</b></button><br>
+            <button onclick="click5()" class="button is-light is-fullwidth"><b>5</b></button><br>
+            <button onclick="click2()" class="button is-light is-fullwidth"><b>2</b></button><br>
+            <button onclick="clickFloatingPoint()"class="button is-light is-fullwidth"><b>.</b></button><br>
+          </div>
+          <div class="column is-1">
+            <button onclick="clickPercent()"class="button is-light is-fullwidth"><b>%</b></button><br>
+            <button onclick="click9()" class="button is-light is-fullwidth"><b>9</b></button><br>
+            <button onclick="click6()"class="button is-light is-fullwidth"><b>6</b></button><br>
+            <button onclick="click3()"class="button is-light is-fullwidth"><b>3</b></button><br>
+            <button onclick="clickPow()"class="button is-light is-fullwidth"><b>y×</b></button><br>
+          </div>
+          <div class="column is-1">
+            <button onclick="clickDiv()"class="button is-light is-fullwidth"><b>÷</b></button><br>
+            <button onclick="clickMult()"class="button is-light is-fullwidth"><b>×</b></button><br>
+            <button onclick="clickAdd()"class="button is-light is-fullwidth"><b>+</b></button><br>
+            <button onclick="clickSub()"class="button is-light is-fullwidth"><b>-</b></button><br>
+            <button onclick="clickEqual()"class="button is-light is-fullwidth"><b>=</b></button><br>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
